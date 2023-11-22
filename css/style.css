@@ -24,6 +24,11 @@ main{
   
 }
 
+
+
+
+
+
 header, footer {
     padding: 1rem;
 }
@@ -48,6 +53,7 @@ header nav div li{
     padding: 1rem;
     text-align: center;
     display: inline;
+    text-decoration: navy;
 }
 
 header nav li a {
@@ -138,15 +144,10 @@ footer h4{
     padding: 1rem;
     list-style: none;
 }
-
-
-
 .grey-section a {
     border: 1rem;
     padding: 1rem;
 }
-
-
 .video-section{
     color:#000;
     position: absolute;
@@ -155,11 +156,6 @@ footer h4{
     transform: translate(-50%, -50%);
     text-align: center;  
 }
-
-
-
-
-
 .yellow-btn{
     background-color: #e6bd43;
     color: black;
@@ -168,7 +164,6 @@ footer h4{
     text-decoration: none;
     justify-self: center;  
 }
-
 .yellow-btn-video{
     background-color: #e6bd43;
     color: black;
@@ -180,10 +175,9 @@ footer h4{
     cursor: pointer;
     border: none;
 }
-
 .yellow-btn-video:hover{
-    background-color: #000;
-    color: #e6bd43;
+    background-color: #000 !important;
+    color: #e6bd43 !important ;
 }
 
 .yellow-btn:hover{
