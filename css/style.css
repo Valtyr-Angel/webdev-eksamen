@@ -24,7 +24,11 @@ main{
   
 }
 
+/* hentet fra https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration */
 
+.active{
+    text-decoration: underline #e6bd43;
+}
 
 
 
@@ -99,6 +103,11 @@ footer h4{
 
 
 
+
+
+
+
+
 .white-section{
     text-align: center;
     padding: 5rem;
@@ -107,6 +116,11 @@ footer h4{
 .white-section h2{
     font-size: 3rem;
 }
+
+
+
+
+
 
 
 .grey-section{
@@ -148,6 +162,12 @@ footer h4{
     border: 1rem;
     padding: 1rem;
 }
+
+
+
+
+
+
 .video-section{
     color:#000;
     position: absolute;
@@ -155,7 +175,29 @@ footer h4{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;  
+    
 }
+
+.about-section{
+    background: rgba(255, 255, 255, 0.5);
+   
+    color:#000000;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    text-align: left; 
+    padding: 1rem; 
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border: 1rem;
+}
+
+
+
+
+
+
 .yellow-btn{
     background-color: #e6bd43;
     color: black;
@@ -185,6 +227,12 @@ footer h4{
     color: #e6bd43;
 }
 
+
+
+
+
+
+
 .yellow-section-img{
     background-color: #e6bd43;
     display: flex;
@@ -213,6 +261,10 @@ footer h4{
     max-height: 540px;
     
 }
+
+
+
+
 .overlayText {
     color:#000;
     position: absolute;
@@ -228,16 +280,28 @@ footer h4{
     width:100%;
     overflow: hidden;
     display: block;
-}   
+    opacity: 50%;
+}  
+
+
+
 .videoContainer video {
     min-width: 100%;
     min-height: 100%;
-    opacity: 50%;
+    
 }
     
 h3{
     text-align: center;
 }
+
+
+
+
+
+
+
+
 
 .section-services {
     
@@ -283,3 +347,102 @@ h3{
   #myBtn:hover {
     background-color: #252525; /* Add a dark-grey background on hover */
   }
+
+
+
+
+
+
+
+
+
+  .portfolio-heading{
+    font-weight: 600;
+    justify-content: left;
+    padding: 2rem;
+    border: 2rem;
+  }
+  
+
+  .portfolio-heading hr{
+    color: #e6bd43;
+    height: 4px;
+    color: #e6bd43;
+    background-color: #e6bd43;
+    
+  }
+
+.portfolio-heading ul {
+    
+    padding: 0rem;
+}
+
+
+  .portfolio-heading ul li{
+
+    list-style: none;
+    padding-right: 1rem;
+    display: inline;
+  }
+
+
+  
+
+
+
+ .white-btn{
+    background-color: #ffffff;
+    color: black;
+    font-weight: bold;
+    padding: 1rem;
+    text-decoration: none;
+     
+    
+}
+
+.white-btn:hover{
+    background-color: #000 ;
+    color: #e6bd43 ;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.portfolio-pictures {
+    
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.portfolio-pictures figure{
+    justify-self: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.portfolio-pictures figcaption{
+    text-align: left;  
+    justify-self: left;
+    padding-top: 1rem;
+}
+
+.portfolio-heading a{
+    text-decoration: none;
+    
+}
+
+
+/* zoom function hentet fra https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
+
+.portfolio-pictures figure{
+    transition: transform .45s; /* Animation */
+}
+
+.portfolio-pictures figure:hover{
+    
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
