@@ -24,11 +24,20 @@ main{
   
 }
 
+
+
+
+
+
 /* hentet fra https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration */
 
 .active{
-    text-decoration: underline #e6bd43;
+    border-bottom: 3px solid #e6bd43;
+    padding-bottom: 2px;
+    font-weight: 900;
 }
+
+
 
 
 
@@ -62,8 +71,12 @@ header nav div li{
 
 header nav li a {
     text-decoration: none;   
-    color: #000;
+    color: rgb(0, 0, 0)
 }
+
+
+
+
 
 footer{
     grid-area: footer;
@@ -166,6 +179,152 @@ footer h4{
 
 
 
+.grey-section-2{
+    text-align: center;
+    background-color: #818181;
+    padding: 1rem;
+    border: 3rem;
+    padding-bottom: 3rem;
+    
+}
+
+.grey-section-2 ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.grey-section-2 ul ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+
+.grey-section-2 ul li{
+    display: flex;
+}
+
+.grey-section-2 ul li article input{
+    width: 400px;
+    height: 3rem;
+    
+}
+
+
+.grey-section-2 label{
+    padding-top: 0.75rem;
+    padding-bottom: 0.5rem;
+}
+
+
+
+.grey-section-2 li {
+    border: 1rem;
+    
+    list-style: none;
+}
+
+.grey-section-2 ul li p{
+    max-width: 30rem;
+    text-align: left;
+}
+
+.grey-section-2 ul ul li h5{
+    font-size: larger;
+}
+
+
+
+label,input{
+    display:flex;
+    flex-direction:column;
+    text-align: left;
+    
+  }
+
+
+#message{
+    height: 10rem;
+    
+}
+
+
+
+
+.test ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.test ul ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.test ul li{
+    display: flex;
+    list-style: none;
+    justify-self: center;
+    border: 1rem;
+    padding: 1rem;
+    
+    
+}
+
+.test ul li article input{
+    width: 10rem;
+    height: 3rem;
+}
+
+.test ul li p{
+    color: red;
+    max-width: 30rem;
+}
+
+
+
+.right-padding{
+    padding-left: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .video-section{
@@ -217,17 +376,53 @@ footer h4{
     cursor: pointer;
     border: none;
 }
+
+
+/* hentet fra https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration */
+.yellow-btn-video:hover > a{
+    color:#e6bd43;
+}
+
+
+
 .yellow-btn-video:hover{
     background-color: #000 !important;
     color: #e6bd43 !important ;
+
 }
+.yellow-btn-video a:hover{
+    background-color: #000 !important;
+    color: #e6bd43 !important ;
+    
+}
+
+
 
 .yellow-btn:hover{
     background-color: #000;
     color: #e6bd43;
 }
 
+.yellow-section-img ul button{
+    border: 2px solid;
+}
 
+.grey-section-2 ul li .yellow-btn-video-form{
+    background-color: #e6bd43;
+    color: black;
+    font-weight: bold;
+    padding: 1rem;
+    text-decoration: none;
+    justify-self: center;  
+    position: relative;
+    cursor: pointer;
+    border: none;
+    margin-top: 1rem;
+}
+.grey-section-2 ul li .yellow-btn-video-form:hover{
+    background-color: #000 !important;
+    color: #e6bd43 !important ;
+}
 
 
 
@@ -249,6 +444,51 @@ footer h4{
 .yellow-section-img ul{
     padding-top: 1rem;
 }
+
+
+.yellow-section-img button{
+    border-radius: 1px;
+    border: #000;
+}
+
+
+
+
+.yellow-section-img-2{
+    background-color: #e6bd43;
+    
+    padding: 3rem;
+    border: 3rem;
+    margin-top: 3rem;
+}
+
+.yellow-section-img-2 ul{
+    display: flex;
+    justify-content: center;
+}
+
+.yellow-section-img-2 ul li img{
+    padding: 1rem;
+}
+
+.yellow-section-img-2 h2{
+    text-align: center;
+}
+
+.yellow-section-img-2 li{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* hentet fra https://stackoverflow.com/questions/29504209/how-to-display-text-for-a-section-with-a-looping-video-background */
 /* hentet fra https://www.w3schools.com/howto/howto_css_image_text.asp */
@@ -291,6 +531,45 @@ footer h4{
     
 }
     
+
+
+
+#quote2 {
+    position: relative;
+    text-align: center;
+    max-height: 540px;
+    
+    
+    
+}
+
+.videoContainer2 {
+    height:540px;
+    overflow: hidden;
+    opacity: 50%;
+    
+}  
+
+.videoContainer2 img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 h3{
     text-align: center;
 }
@@ -446,3 +725,21 @@ h3{
     
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+
+
+
+
+
+/* maps function hentet fra https://blog.hubspot.com/website/how-to-embed-google-map-in-html */
+.google-map {
+    padding-bottom: 10%;
+    position: relative;
+  }
+  
+  .google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+  }
