@@ -415,27 +415,7 @@ label,input{
 }
 
 
-/* hentet fra https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration */
-.yellow-btn-video:hover > a{
-    color:#e6bd43;
-}
 
-.yellow-btn-video:hover{
-    background-color: #000 !important;
-    color: #e6bd43 !important ;
-
-}
-.yellow-btn-video a:hover{
-    background-color: #000 !important;
-    color: #e6bd43 !important ;
-    
-}
-
-
-.yellow-btn:hover{
-    background-color: #000;
-    color: #e6bd43;
-}
 
 
 
@@ -454,10 +434,7 @@ label,input{
     margin-top: 1rem;
 }
 
-.contact-form ul li .yellow-btn-video-form:hover{
-    background-color: #000 !important;
-    color: #e6bd43 !important ;
-}
+
 
 .yellow-section-img{
     background-color: #e6bd43;
@@ -692,9 +669,7 @@ h3{
     font-size: 18px; /* Increase font size */
   }
   
-  #myBtn:hover {
-    background-color: #252525; /* Add a dark-grey background on hover */
-  }
+  
 
 
 
@@ -772,11 +747,7 @@ h3{
 }
 
 
-.white-btn:hover{
-    background-color: #000 ;
-    color: #e6bd43 ;
-    cursor: pointer;
-}
+
 
 
 /* hentet fra hentet fra https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow */
@@ -832,11 +803,6 @@ h3{
 
 .portfolio-pictures figure{
     transition: transform .65s; /* Animation */
-}
-
-.portfolio-pictures figure:hover{
-    
-    transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 
@@ -911,19 +877,6 @@ h3{
 .index-section h1{
     font-weight: 1200;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1081,6 +1034,50 @@ footer{
     flex-direction: row;
 }
 
+.contact-form ul li .yellow-btn-video-form:hover{
+    background-color: #000 !important;
+    color: #e6bd43 !important ;
+}
 
+
+
+/* zoom function hentet fra https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
+.portfolio-pictures figure:hover{
+    
+    transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+#myBtn:hover {
+    background-color: #252525; /* Add a dark-grey background on hover */
+  }
+
+.white-btn:hover{
+    background-color: #000 ;
+    color: #e6bd43 ;
+    cursor: pointer;
+}
+
+/* hentet fra https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration */
+.yellow-btn-video:hover > a{
+    color:#e6bd43;
+}
+
+.yellow-btn-video:hover{
+    background-color: #000 !important;
+    color: #e6bd43 !important ;
+
+}
+.yellow-btn-video a:hover{
+    background-color: #000 !important;
+    color: #e6bd43 !important ;
+    
+}
+
+
+.yellow-btn:hover{
+    background-color: #000;
+    color: #e6bd43;
+}
 
 }
