@@ -369,7 +369,7 @@ label,input{
     padding-left: 1rem;
     padding-right: 1rem;
     border: 1rem;
-    min-width: 300px;
+    min-width: 315px;
     padding-bottom: 2rem;
 }
 
@@ -637,7 +637,9 @@ label,input{
     
 }
     
-
+footer h4{
+    font-size: 175%
+}
 
 
 h3{
@@ -981,7 +983,7 @@ footer{
     position: absolute;
     top: 50%;
     left: 45%;
-    transform: translate(-10%, -60%);
+    transform: translate(-10%, -55%);
     text-align: left; 
     padding-bottom: 2rem; 
     padding-left: 2rem;
