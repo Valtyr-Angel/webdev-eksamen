@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ENG">
+<html lang="en">
 
 <head>
 
@@ -10,35 +10,48 @@
 <link rel="stylesheet" href="css/style.css" type="text/css">
 
 
+
+<!-- hentet fra https://www.w3schools.com/html/html_favicon.asp  -->
+<link rel="icon" type="image/x-icon" href="media/logo1.png">
+
+
 <link href="css/font/css/fontawesome.css" rel="stylesheet">
     <link href="css/font/css/brands.css" rel="stylesheet">
     
     <link href="css/font/css/solid.css" rel="stylesheet">
 
+
+
+    <title>About company</title>
 </head>
 
 <body>
-    <div id="grid-container">
-        <header>
+<div id="grid-container">
+    <header>
             
             
 
 
-            <nav>
-                <a href="index.html" aria-label="Home">
-                    <img src="media/logo1.png" alt="Logo for the web page">
-                    </a>
+        <nav>
+            <a href="index.html" aria-label="Home">
+                <img src="media/logo1.png" alt="Logo for the web page">
+                </a>
 
-                <div>
-                <li role="button"><a href="index.html">Home</a></li>
-                <li role="button"><a class="active" href="products.html">Portfolio</a></li>
-                <li role="button"><a href="about.html">About</a></li>
-                <li role="button" class="yellow-btn-video"><a href="#">Contact</a></li>
-                </div>            
-            </nav>
+            <div>
+            <ul>
+            <li ><a  href="index.html">Home</a></li>
+            <li ><a class="active" href="products.html">Portfolio</a></li>
+            <li ><a href="about.html">About</a></li>
 
-        </header>
-        <main>
+            <li>
+                <a href="about.html#Contact_us" class="yellow-btn-video"> Contact </a>
+            </li>
+            </ul>
+            </div>            
+        </nav>
+
+    </header>
+<main>
         
 
 
@@ -49,13 +62,12 @@
             <!-- bildet hentet fra https://pixabay.com/photos/work-desk-office-mouse-pad-table-2598577/-->
 
 
-            <section id ="quote2" style="height:100% ; width: 100%; padding-top: 0px; padding-bottom: 0px; margin: 0px">
+            <section class ="background-image">
                 <div class="videoContainer2">
-                <img>
-        <img src="media/background-2.jpg" type='jpg; codecs="avc1.42E01E, mp4a.40.2"'>
-        <img src="media/background-2.jpg" type='jpg; codecs="vp8, vorbis"' />
-        Video not supported.
-                </img>
+                
+        <img src="media/background-2.jpg" alt="picture of computer mouse on dark desktop">
+        
+                
                 </div>
                 <section class="video-section">
                 <h1>Portfolio</h1>
@@ -68,65 +80,66 @@
 <section class="portfolio-heading">
     <h2 >Explore Previous jobs</h2>
     <hr>
+</section>
+
+<section class="portfolio-heading-flex">
+
     <ul>
-        <li>
-            <a href="#Branding">
-                <button class="white-btn">
-                    Branding
-                </button>
-            </a>
-        </li>
-
-        <li>
-            <a href="#Design">
-                <button class="white-btn">
-                    Design
-                </button>
-            </a>
-        </li>
-
-        <li>
-            <a href="#Development">
-                <button class="white-btn">
-                    Development
-                </button>
-            </a>
-        </li>
-
-
-
-
         
+        <li>
+            <a class="white-btn" href="#Branding" title="branding" > Branding </a>
+        </li>
+        <li>
+            <a class="white-btn" href="#Design" title="Design"> Design </a>
+        </li>
+        <li>
+            <a class="white-btn" href="#Development" title="development"> Development </a>
+        </li>
+
     </ul>
+</section>
 
 
+
+
+
+<section class="portfolio-heading" id="content">
     <h2 id="Branding" >Branding</h2>
     <hr>
 </section>
 
 
 
+
 <section class="portfolio-pictures">
 
 
-<figure>
+<figure class="flexgrow">
     
     
-    <img src="https://placehold.co/400x400">
+    <img src="https://placehold.co/400x400" alt="placeholder image">
     <figcaption> et harum quidem</figcaption>
 
 </figure>
-<figure>
+<figure class="flexgrow">
     
     
-    <img src="https://placehold.co/400x400">
+    <img src="https://placehold.co/400x400" alt="placeholder image">
     <figcaption> et harum quidem</figcaption>
 
 </figure>
-<figure>
+<figure class="flexgrow">
     
     
-    <img src="https://placehold.co/400x400">
+    <img src="https://placehold.co/400x400" alt="placeholder image">
+    <figcaption> et harum quidem</figcaption>
+
+</figure>
+
+<figure class="flexgrow">
+    
+    
+    <img src="https://placehold.co/400x400" alt="placeholder image"> 
     <figcaption> et harum quidem</figcaption>
 
 </figure>
@@ -143,24 +156,24 @@
 <section class="portfolio-pictures">
 
 
-    <figure>
+    <figure class="flexgrow">
         
         
-        <img src="https://placehold.co/400x400">
+        <img src="https://placehold.co/400x400" alt="placeholder image">
         <figcaption> et harum quidem</figcaption>
     
     </figure>
-    <figure>
+    <figure class="flexgrow">
         
         
-        <img src="https://placehold.co/400x400">
+        <img src="https://placehold.co/400x400" alt="placeholder image">
         <figcaption> et harum quidem</figcaption>
     
     </figure>
-    <figure>
+    <figure class="flexgrow">
         
         
-        <img src="https://placehold.co/400x400">
+        <img src="https://placehold.co/400x400" alt="placeholder image">
         <figcaption> et harum quidem</figcaption>
     
     </figure>
@@ -176,17 +189,17 @@
     <section class="portfolio-pictures">
 
 
-        <figure>
+        <figure class="flexgrow">
             
             
-            <img src="https://placehold.co/400x400">
+            <img src="https://placehold.co/400x400" alt="placeholder image">
             <figcaption> et harum quidem</figcaption>
         
         </figure>
-        <figure>
+        <figure class="flexgrow">
             
             
-            <img src="https://placehold.co/400x400">
+            <img src="https://placehold.co/400x400" alt="placeholder image">
             <figcaption> et harum quidem</figcaption>
         
         </figure>
@@ -210,17 +223,17 @@
 
 <h3>Our services</h3>
 
-<section class="section-services">
-    
-    <li><figure>
+<section class="section-services" >
+    <ul>
+    <li>
+        <figure>
         <i class="fa-solid fa-people-group fa-2xl"></i>
-        <figcaption><p>Branding</p></figcaption>
+        <p>Branding</p>
         <figcaption>
              Interea ea legione quam secum habebat militibusque, 
-            
         </figcaption>
          </figure>
-        </li>
+    </li>
 
         <li>
             
@@ -228,7 +241,7 @@
             
             <figure>
             <i class="fa-solid fa-cloud-arrow-up fa-2xl"></i>
-            <figcaption><p>Branding</p></figcaption>
+            <p>Branding</p>
             <figcaption>
                 Interea ea legione quam secum habebat militibusque, 
                
@@ -238,7 +251,7 @@
 
             <li><figure>
                 <i class="fa-solid fa-shuffle fa-2xl"></i>
-                <figcaption><p>Branding</p></figcaption>
+                <p>Branding</p>
                 <figcaption>
                     Interea ea legione quam secum habebat militibusque, 
                    
@@ -248,16 +261,17 @@
 
                 <li><figure>
                     <i class="fa-solid fa-wifi fa-2xl"></i>
-                    <figcaption><p>Branding</p></figcaption>
+                    <p>Branding</p>
                     <figcaption>
                         Interea ea legione quam secum habebat militibusque, 
                        
                    </figcaption>
                      </figure>
-                    </li>     
-</section>
+                    </li> 
+                </ul>    
+</section>  
 
-    <section class="grey-section">
+    <section class="sign-up">
         <h1>Sign up for our newsletter</h1>
         <ul>
             <li>
@@ -291,21 +305,22 @@
 
 
                 <div>
-                <li role="button"><a href="index.html"><i class="fa-brands fa-facebook fa-2xl"></i></a></li>
-                <li role="button"><a href="products.html"><i class="fa-brands fa-square-instagram fa-2xl"></i></a></li>
-                <li role="button"><a href="about.html"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+                    <ul>
+                <li ><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-2xl"></i></a></li>
+                <li ><a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram fa-2xl"></i></a></li>
+                <li ><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+            </ul>
                 
+
+                
+
                 </div>  
 
 
 
 </footer>
           
-    
-
-
-    
-    </div>
+</div>
      <!-- hentet fra https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up fa-xl"></i> </button>
 
