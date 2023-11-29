@@ -772,6 +772,7 @@ h3{
     
     max-width: 692px;
     padding-bottom: 3rem;
+    min-width: 200px;
     
     flex-grow: 1;
     
@@ -1035,7 +1036,7 @@ footer{
 }
 
 .contact-form ul li .yellow-btn-video-form:hover{
-    background-color: #000 !important;
+    background-color: #252525 !important;
     color: #e6bd43 !important ;
 }
 
@@ -1053,7 +1054,7 @@ footer{
   }
 
 .white-btn:hover{
-    background-color: #000 ;
+    background-color: #252525 ;
     color: #e6bd43 ;
     cursor: pointer;
 }
@@ -1064,19 +1065,19 @@ footer{
 }
 
 .yellow-btn-video:hover{
-    background-color: #000 !important;
+    background-color: #252525 !important;
     color: #e6bd43 !important ;
 
 }
 .yellow-btn-video a:hover{
-    background-color: #000 !important;
+    background-color: #252525 !important;
     color: #e6bd43 !important ;
     
 }
 
 
 .yellow-btn:hover{
-    background-color: #000;
+    background-color: #252525;
     color: #e6bd43;
 }
 

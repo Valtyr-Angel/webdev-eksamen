@@ -1,0 +1,34 @@
+for denne oppgaven siktet jeg inn på A kravene
+
+ jeg antar i oppgaven at kravene overskriver hverandre, slik at for eksempel artikkelkortene på portfoliosiden kan være over 500px brede.
+ kunne ikke finne alle bildene som var på demoen så fant noen bilder selv jeg la til
+ kunne ikke se at "branding" symbolene ble større når siden ble større, men gjorde selve symbolene statisk større.
+ kunne ikke finne nøyaktig samme branding symboler, fant noe omtrentlig likt.
+ antar at forskjellig kode i header er greit, ettersom oppgaven spør om forskjellige metadata
+
+
+ utfordringer;
+
+ville gjerne sett mer på skalering av websiden nære breakpointet   ( som jeg satte på 600px) ser at +-25px ser at siden transformerer seg uønsket,ville på enda et breakpoint eller høyet verdien til 650 px
+ville også ha sett mer på refaktorisering av kode, kan se at noe optimaliseringer kan gjøres
+en reevaluering av div bruken kunne bli gjort, noe div bruk kom fra kode fra nett så det kan ha vært mulig å skrive om, men usikker på dette
+kunne ha lagt til mer microdata, men føler jeg fikk dekket det essensielle, nettsiden, portfoliobildene, kontaktinfo
+
+
+kilder:
+for oppgaven så jeg for det meste på stackoverflow, tutorials og det jeg kunne søke på for å hjelpe, har dokumentert i de forskjellige sidene på kilder
+
+
+/* hentet fra https://bignerdranch.com/blog/web-accessibility-skip-navigation-links/ */
+/* hentet fra https://bignerdranch.com/blog/web-accessibility-skip-navigation-links/ */
+/*.active hentet fra https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration */
+/* hentet fra https://stackoverflow.com/questions/29504209/how-to-display-text-for-a-section-with-a-looping-video-background */
+/* hentet fra https://www.w3schools.com/howto/howto_css_image_text.asp */
+/* hentet knapp fra fra https://www.w3schools.com/howto/howto_css_alert_buttons.asp */
+/* This is just some CSS styling for the video to make it fill 100% */
+/* hentet fra https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
+/* hentet fra hentet fra https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow */
+/* zoom function hentet fra https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
+/* maps function hentet fra https://blog.hubspot.com/website/how-to-embed-google-map-in-html */
+/* zoom function hentet fra https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
+/* hentet fra https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration */
